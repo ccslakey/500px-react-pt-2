@@ -3,11 +3,12 @@ This is a simple photo viewing application I had been hacking together a few mon
 Simple installation rundown:
 
 from terminal
-  git clone https://github.com/ccslakey/500px-react-pt-2.git
-  cd 500px-react-pt-2
-  npm install
-  npm start
-  go to localhost:3000 on your web browser
+ 
+git clone https://github.com/ccslakey/500px-react-pt-2.git
+cd 500px-react-pt-2
+npm install
+npm start
+go to localhost:3000 on your web browser
 
 ------------------------------------------------------------------------------------------------------------------------------
 
