@@ -5,9 +5,13 @@ Simple installation rundown:
 from terminal
  
 git clone https://github.com/ccslakey/500px-react-pt-2.git
+
 cd 500px-react-pt-2
+
 npm install
+
 npm start
+`
 go to localhost:3000 on your web browser
 
 ------------------------------------------------------------------------------------------------------------------------------
