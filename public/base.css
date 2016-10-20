@@ -1,0 +1,31 @@
+.pullDown {
+    margin-top: 15px !important;
+}
+a {
+    color: #c7c7c7 !important;
+}
+a:hover {
+	text-decoration: none !important;
+	color: #337ab7 !important;
+}
+
+.feature-header:first-letter {
+    text-transform: uppercase;
+}
+
+.photo-thumb {
+	color: #111;
+	font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.slight-opacity {
+	opacity: 0.7;
+}
+
+button {
+	margin-right: 2.5px !important;
+	margin-left: 2.5px !important;
+}

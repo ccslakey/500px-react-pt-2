@@ -1,0 +1,2 @@
+export const CONSUMER_KEY = "BkYe5tXaV7ZSfxCKZYvwsBUCa4YB5yLq3m8IU1vk";
+export const CONSUMER_SECRET = "Eku3CLNhmNqI7RCB2vw968pd4lU42xQD5b7GbFHJ";

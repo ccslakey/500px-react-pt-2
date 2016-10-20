@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+
+import routes from './routes.js';
+
+import { Router, browserHistory } from 'react-router';
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+	<Router history={browserHistory} onUpdate={() => window.scrollTo(0, 0)}>
+		{routes}
+	</Router>,
+	document.getElementById('root')
 );
