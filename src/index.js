@@ -11,3 +11,7 @@ ReactDOM.render(
 	</Router>,
 	document.getElementById('root')
 );
+
+browserHistory.listen(function (location) {
+    window.ga('send', 'pageview', location.pathname);
+});
