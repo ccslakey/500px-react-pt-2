@@ -37,7 +37,7 @@ class Photos extends React.Component {
      }
 
 	getPhotos(mode = `${this.state.featureMode}` || 'popular', page = this.state.activePage) {
-		const baseURL = `https://api.500px.com/v1/photos?&rpp=52&image_size=600,1080,1600,2048&`;
+		const baseURL = `https://api.500px.com/v1/photos?&rpp=52&exclude=nude&image_size=600,1080,1600,2048&`;
 		request.get(`${baseURL}consumer_key=${CONSUMER_KEY}&feature=${mode}&page=${page}`)
 			.end((error, response) => {
 				if (!error && response) {
@@ -52,7 +52,7 @@ class Photos extends React.Component {
 	}
 
 	searchForPhotos(query, page = 1) {
-		const baseURL = `https://api.500px.com/v1/photos/search?rpp=50&image_size=600,1080,1600,2048&`;
+		const baseURL = `https://api.500px.com/v1/photos/search?exclude=nude&rpp=50&image_size=600,1080,1600,2048&`;
 		request.get(`${baseURL}consumer_key=${CONSUMER_KEY}&page=${page}&term=${query}`)
 			.end((error, response) => {
 				if (!error && response) {
